@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+
+    >
+<ImageView
+    android:layout_width="120dp"
+    android:layout_height="90dp"
+    android:id="@+id/iv"
+    android:layout_centerVertical="true"
+    ></ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/title"
+    android:layout_height="wrap_content"
+    android:text="苹果"
+    android:layout_toRightOf="@+id/iv"
+    android:layout_alignBottom="@id/iv"
+    android:layout_marginBottom="50dp"
+    android:layout_marginLeft="10dp"
+
+
+    ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/price1"
+        android:layout_height="wrap_content"
+        android:text="价格:"
+        android:layout_toRightOf="@+id/iv"
+        android:layout_alignBottom="@id/iv"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/price"
+        android:layout_height="wrap_content"
+        android:text="1800"
+        android:layout_toRightOf="@+id/price1"
+        android:layout_alignBottom="@id/iv"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="5dp"
+
+
+        ></TextView>
+</RelativeLayout>
